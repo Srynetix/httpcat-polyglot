@@ -38,6 +38,10 @@ func getPetImage(petType PetType, statusCode int) io.Reader {
 	return resp.Body
 }
 
+func IsStatusCodeValid(statusCode int) bool {
+	return http.StatusText(statusCode) != ""
+}
+
 func imageDataToAscii(reader io.Reader, width int, height int) string {
 	img, _, err := image.Decode(reader)
 	if err != nil {

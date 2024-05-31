@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"errors"
 	"fmt"
 	"os"
 	"strconv"
@@ -15,10 +16,25 @@ var width int
 var height int
 
 var rootCmd = &cobra.Command{
-	Use:   "httpcat [http status]",
+	Use:   "httpcat [http status code]",
 	Short: "http.cat client",
 	Long:  "A simple, stupid client for http.cat made in Go.",
-	Args:  cobra.MinimumNArgs(1),
+	Args: func(cmd *cobra.Command, args []string) error {
+		if len(args) != 1 {
+			return errors.New("http status code missing")
+		}
+
+		status, err := strconv.Atoi(args[0])
+		if err != nil {
+			return fmt.Errorf("%s", err)
+		}
+
+		if !logic.IsStatusCodeValid(status) {
+			return errors.New("unknown http status code")
+		}
+
+		return nil
+	},
 	Run: func(cmd *cobra.Command, args []string) {
 		status, err := strconv.Atoi(args[0])
 		if err != nil {
