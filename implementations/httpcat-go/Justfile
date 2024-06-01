@@ -11,7 +11,7 @@ lint:
 
 # Build
 build:
-    go build
+    go build -o httpcat-go
 
 # Run
 run *ARGS:

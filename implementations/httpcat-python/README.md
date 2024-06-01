@@ -1,4 +1,4 @@
-# httpcat-go - Simple, stupid http.cat client made in Go
+# httpcat-py - Simple, stupid http.cat client made in Python
 
 Show HTTP status code as cute images of cats (or dogs!), with colors!
 
@@ -7,18 +7,18 @@ Show HTTP status code as cute images of cats (or dogs!), with colors!
 - nix
 - nix-direnv
 - devenv
-- ...or just a recent version of Go.
+- ...or just a recent version of Python 3.12 and Poetry.
 
 ## Build
 
 ```sh
-go build
+pip install .
 ```
 
 ## Usage
 
 ```sh
-$ httpcat-go 200
+$ httpcat-py 200
 ```
 
 ```
@@ -68,7 +68,7 @@ $ httpcat-go 200
 ```
 
 ```sh
-$ httpcat-go 200 --dog
+$ httpcat-py 200 --dog
 ```
 
 ```

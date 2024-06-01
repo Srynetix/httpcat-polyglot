@@ -17,7 +17,10 @@
   # services.postgres.enable = true;
 
   # https://devenv.sh/languages/
-  languages.go.enable = true;
+  languages.python.enable = true;
+  languages.python.version = "3.12.3";
+  languages.python.poetry.enable = true;
+  
   # languages.nix.enable = true;
 
   # https://devenv.sh/pre-commit-hooks/

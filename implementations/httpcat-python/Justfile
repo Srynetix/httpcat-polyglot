@@ -1,0 +1,18 @@
+_all:
+    @just --list
+
+# Format
+fmt:
+    poetry run ruff format .
+
+# Lint
+lint:
+    poetry run ruff check .
+
+# Test
+test:
+    poetry run pytest
+
+# Run
+run *ARGS:
+    poetry run python httpcat/main.py {{ ARGS }}

@@ -12,17 +12,14 @@ For each language / technology included in "implementations", the app should:
 
 The code should be clear, documented, and as idiomatic as possible.
 
-CI should be setup, with automated tests, lint and formatting.
-
 ## Available implementations
 
-- Go (85%)
-    - Needs CI
+- Go
+- Python 
 
 ## Roadmap
 
 - Rust
-- Python
 - Swift
 - Kotlin
 - Zig
