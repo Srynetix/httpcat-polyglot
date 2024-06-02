@@ -1,0 +1,22 @@
+_all:
+    @just --list
+
+# Format
+fmt:
+    cargo fmt
+
+# Lint
+lint:
+    cargo clippy
+
+# Test
+test:
+    cargo test
+
+# Run
+run *ARGS:
+    cargo run --release -- {{ARGS}}
+
+# Build
+build:
+    cargo build --release

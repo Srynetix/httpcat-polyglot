@@ -1,0 +1,12 @@
+[package]
+name = "httpcat-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.4", features = ["derive"] }
+image = { version = "0.24.9", default-features = false, features = ["jpeg", "rayon"] }
+rascii_art = "0.4.5"
+reqwest = { version = "0.12.4", default-features = false, features = ["rustls-tls"] }
+tokio = { version = "1.38.0", default-features = false, features = ["macros"] }

@@ -22,49 +22,38 @@ $ httpcat-py 200
 ```
 
 ```
-         ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,..,,,,,,,,,,,,,,,         
-         ii11i11i11i1111111::ii;iiii1ffCCf111tttttfffffffffffffffttttt11tfLCGGGCf11111iiii;         
-         ;1t11t1it11t1ttttt1i1iiiiiitfLLC00CCCGG0008800000000GGCCLLLLLCG00800GCfttt111111i;         
-         ;1t1tt11tit11t1ttttt11i1111ttfLLCG0G00000G0000000000GGGG000000GCCLLfffftttttt111i;         
-         ;tt1tt1t11t11t1ti1t1111111tttfLLCGGGGGGGGGG0GGGGG00000GGGGGCCLLffffffffffftttttt1;         
-         ;t1tft1fttftfttt111t111ttttttfCG000GG0GCGGGGCGGGG00GG000GGCLfttttfLLLLfffffftttt1;         
-         ;1ii;;;i;iiiiiii;i11ii1111ttfC000GCCCLLLCCGCCLLfLLLCCCGGGGGGL111tLLLLLLLLffffftt1;         
-         ;;;::;:::::::::;;;;;::;;;iiiC0GG0GLffttLCGCLft11tttfCGCCLLLCGfii1LCCCLLLLLfffffft;         
-         ;:;:;;;iiiiiiiiii111111i:;;t00GGfi,,:1LG00GCLt11;::,;tLLffffLCf11LCCCCLLLLLLfffft;         
-         ;:::111111tttfffffffLft;::iG00GGt;,,;t800000GCL1:,,.,,iLfffffLGGCLCCCCCLLLLLLLfft;         
-         ;::i1;itttttfttffffLLL1:::1GGGG0GCCG0000000GGCLCLt1ii1fLffffffLCCffCCCCLLLLLLLfft;         
-         ;::1:,;tttttti:::::;;ii,,:iCCGG0088880GCCCCCLLC00000GGLftttttttffffLCCCCLLLLLLfft;         
-         ;,i1,,tffffffttttt111t;,,,1CfLGGG000GLft111i1LCGGGGGGCLfttttttttttf1fGCCCCCLLLfft;         
-         ;:1;,;ttffffLLLLCCCCCt,,,,;fffCLfCG0Cii11i;;;1fLLLLfffffttttttttttt1tfG00GGGCLLLf;         
-         ;;1;;111ttt1iiii11ttfi,,,,,1ffffLGGCGt:;i:,;i1tffftttttttttttttttttt11fGGGGGCLLLf;         
-         ;i1ttttttfftttt11111t:,,:::1ftfLCCCLLfi;:;ii111fffftttffftttttttttt111tLGGGGGCLLt;         
-         ;i111tttfffLLLLLLLLCt,:::,:iLffLfLft11i;;ii1111ttttttttttfftttttttt1111tLCCGG0GGC;         
-         ;i11tt1ttttffLLLCCCCi,,,:::iLLffftt1ii;;:;;;i111ttttttfttttffftttt11111tfCCCGGG0G;         
-         ;1tttttffffffLLLCCCL:,::;:;i1fffftt11ii;;;;ii111ttttttttttttttttt11111tttLCGGGGGC;         
-         ;itttfffLLLLLLCCCCGt,::::;;::;tffftt11ii;;iii11ttttttttttttttttt11111ttttfLCGGCLL;         
-         ;tftttfLLLLLCCCCCCCi,::::::::,;tffftttt111111tttttttttttttttttt111111ttttttLCCCGC;         
-         ;1ffLLLLLLLCCCCCCGL:::::::::::,:fLfftttttttttttttttttttttttttt1111111tffttttLGGGC;         
-         ;::::;iitLLCCCCCCGt::::::::::::;CGLfftttttfffttttttttttttttt111111111tffttt1tLGGC;         
-         ;ftt1i;:tCLLCCCGGGi::::::::::::iGGLfffffftttttttttttttttt111111111111tffftt11tLGL;         
-         ;;i1tffLLCCCCGGG0C;::::::::::::1GCLftffftttttttttttttt1111ii11111111ttffftt11tfLL;         
-         ;;;:::::;;i11tffCt:;;::::::::::1GCLfttttttttt11tt111111111i11111111tttfftttttttff;         
-         ;i1iii1iiiiii;;;:::::::;;;;;;;;1CCLffttttttttt111111111111iii111111tttttffttttttt;         
-         ;11iiii1111111111iiii;i;;;;;;;;1CCLfftttttttt111111111iiiii1111111ttttttttttttttt;         
-         ;fLfffftt11111111ii1i11111111ii1LCLLfftttt1111i1iii11iiiiii1111111ttttttttttttttt;         
-         ;fLLLLLLLLLffftt1ii11i1111111i1tGCLLffttt11111i11iiiiiiiiiii11111tttttttttffftttt;         
-         ;LCCLLLLLLLLLLCCLtt1ttfffti;;;iC0CffLfftt11111iiiiiiiiiiiiii1111ttttttttttffffttt;         
-         ;fCCCCGGGGCCCCCLLLfft1i1tt:,iffG0GLttffft1111iiiiiiiiiiiiiii1111ttttttttttfffftt1;         
-         ;:ii1ttfLCCG0L11ii1;1ii11i;,,.:C0GCLt1tttt11iiiiiiiiiiiiiiii11111t111111tttttffft;         
-         ;.,,:::;ii111;;1i:ti1ttfffGGGfi1G0GCLt1111111iiiiiiiiiiiiiiii1111111111ttttffffft;         
-         ;,,,,::::::;::;;;;;i;itffffffLfi1ft1iii;;;;i;;;;;;;;;;;;;;;;;iiiiiiiiiiii1111111i;         
-          .............. .   .             :11. .;;, .;;. ........ .                                
-                                          .;,tL L:,L.L,,L                                           
-                                             i;,0  G1G  0,                                          
-                                           .;: .G..G:G .G.                                          
-                                          .tt11 ;;;; ;;;;                                           
-                                                 .                                                  
-                                                ;it;                                                
-                                                .,,.                                                
+                                                                                                   
+         "//"/""/""/""""""+^=///////"|)\"+///////////""""""""""|""""""////")\\\)""////////         
+        .Itzo1j7[jeej7jLLLelr1?I![1tTypdES3Cwy256g4EdSgVVhggS6FFyffCJCypg4PYbXgfL7ooeat1?*`        
+        .*znaL#o7LtujzLzuunL7o11teo7nJFpVbObbkAAU88$$8888$$8kYZGGZZGbYYZXgdS65fJ#TuLjz7o1{.        
+        .}njjw#o#jLCjTLujtoLj7oo7jLuTC2phGYYkkkbYbZkbGGGbkAAkkkYkbP4gmF3ff2222yyfwCJ#TuLo*.        
+        .}zao7[t7[jjojejt[e7zoo7jLuTJ3dbOAYPXXXVEXXP44Vh4XXXXZbZZGPdpn7zu5qm66FF52yfwC#Tj*.        
+        .*{cii%%%%%%%%xcxxrssvc***??nPYbkZg2fCT3EXXdpwujLnnCpdg4gmmg46eI12VhgSqm6F523yfwn}.        
+        `riv){}}?I![1[1tao77z7oacvx!4&kYdtv=>rFZ&AObEpT7{>)")}z65322phgyTy4dVhgSqm6F553y#}.        
+        `ri>I1I1zzLn#J#TCfy225wI<>%CbYYYbmJn5VA$8&OkGggmwe?cx*eFpffff3qPg65V4VhgSqm6pF23CI.        
+        `r>cti)!uunTTTIrs{{**Iov)\iJhVPk&U@HH&Z4gSgg66SGAOObXEh5CTT#CJCy52yyhgdhSqm6pF52wI.        
+        `r<1s"xTCwfy33332323yft|)\>jp3S4h4bOk5Lj7e1?*z3g444dhS6y##JJ#####JJLTSPZGXgEh6F5wI.        
+        `lre{s1zjLnuoo7zjLTJw3%"||)cww322hXPX6IsI*>x*1zJ3fJT##JCJJJ#T###TTTujj3ZkbZPdmF5fI.        
+        .{]e7LLuTJwwJ###TTTTJo||)\<%Jyw2ghhm5yj*xl}1aaenffw#TJwwwCJJ#JJTT#Tj77jwdPPGZPdS2I.        
+        .*[1ezjzuuTCy35p6mqS6c/"|\<v7p233fwnz[?{crI?]t7jLun#JCwJJwwwwCJT#TLz7zjLyd44PbYkP].        
+        .*azLuTTJJCCf2F6qghdu||<iv%l*LfywJTL7[?{ccr}?tzjLu#JJCCwCJJJCCCJ#L777juT#5VXYGXEh!.        
+        .*eLuLJy25p6mmSSghdh{))iiiv\|\lLywCJTLza!?!1toLuTTTT#####JJJJ#Tnj7oo7uT###ySg4dhg!.        
+        .*7TCwf2p66mqSghd4gw))>\|\\|||"<[FywCJ##nunnT#JJ##TTnnnTT#JJ#nL7eoo7jnJCJTLJ64GGE!.        
+        .{}lrrls}wmmqSVd4gEI<\|||\\||)|)jbd3wwCJJJCCCCJ#TTTTTTT#TTnuzeeooo7zjnCwCTuzn5dPd!.        
+        .*e7zLLjjFSSgV4XGb5>\|||||))))|<ybd2wwwwCJJ#TTTTTnnnunnLj7eaeeeeo77jL#wffJTjzufgq?.        
+        `sxllll{*}?17LTw3F]\<<\\\\\\\\)>fXh5wJJJJ#J#TujLuLjjzz7ooattaeeoo7zLT#CwJJTnnu#y3?.        
+        .{?!???!!!!???IIsrllcx%%vvviiiicfEg5fC#TTTTTnLzz7zjz7oeetattae777jju##JJJCJJ####TI.        
+        .ITJTnLjjoaatttte1![[!][!!]???I!Thg62fJTuLLjz7eaaaaeeat11ttteo77zjLT#######J##TunI.        
+        .I3FFFFp6pF5ywCTne![ttaooeet]??o6PS6F2fJnLj7oettat1tt11111ttaeozjLnT######wwwJ##nI.        
+        .?pghVhVhhhggghgq5w#TuoonTo))]eykAV3wy3w#uj7eat1111t1[[[[1ttaozjunTTT#####Cffw#Tj}.        
+        `ss!tj#C2pgdEgf7ot[7ILI!7e]%ii)ok&bgfnn##nL7at[!][11[]]]][1teo7jLuuLLLLuuTJCwwwCu}.        
+        `r^/|>ivls}!1!r}]r{tIez#32qEghweTEPh5#jot[1t1!II?!!?III???![1teeoooo77zjLn#JCCJJu?.        
+         /^^^^^^^=====+////+/+|\<<<\\<><"|<}1s"+vc%++xlv+//+++//////////////"""""""||""""/         
+                                          ^||g/ru'z*I7'Tr                                          
+                                           .\c`fo tf5! u#                                          
+                                          |7[*)=]/!="]"[^                                          
+                                          .``` `/\"   `                                            
+                                               :xlr'                                                                                                                                                  
 ```
 
 ```sh
@@ -72,54 +61,44 @@ $ httpcat-py 200 --dog
 ```
 
 ```
-                                                                              .,..... .,.....,,,.   
-                                                                               ....,. .,.,,......   
-   1ttffLLLLf1i11111iiiiiiiiiii111ttffffffffLfffffffffffLLLLLLLLLLLLLLLffffLLLLt1111iiiiiiiiiiiii   
-   fLG88880GLttfffft1i11ttt111tfLLLLCG08888888000888800888@@88@88888@@88088880LtfLff11111111ttttt   
-   ffCCCCfttttttfffftt11tttt111tfLLLLC00088000G00088000000000000888888880000GGLtffff11iiiiii1111t   
-   fLtt111111ii1tffLLfffffftt1tttfLLCC00880000GG008880000000000008888888800000GLLLLLf11iiiii;;;;1   
-   fLtt111i1111ii1tffLLLLftttt1ttLCGGGG0000GGGCLCGG00000000000000000888800GGCCftfLLf111111iii;;;1   
-   fLLLLLfttttt1iii11tfLft111111tLCCGGG000000GGGGGG000GGGG00000000000000000GGCLLLLft11ttttt11i;;i   
-   fLLCCCCLLfttttfft11tLLLf1111111tLLCG088888888888888000GGGGGGG0000GGGGGGGGGCCLLLLfftttttt11ii;i   
-   ttttffLCCLft1fLLf11fLCCf111ttt11tfG8888888888888888888800000GG0000GLffLfLLLLfttfftt1iiiiiiii;i   
-   tt111ttfLLft11tt11ftffft11fLffttL088000000000088888888880880000800Cftt1tfLLLLf1111i;;;;;iiii;1   
-   t1iii11111ttt11111ttftfLfffLLLG88000000000000000000088880GC88GG00GCffttttfLLff11iii;;;;iiiiii1   
-   1iiiiiii11111tfft1ii1tfLLLLCG08GG0G00GCG00000000GGCGG08880fC880GCCCLftt111111111iii;;i1111ii;1   
-   t1iii;;;;;;;;1tfft1i1tfLftfC00GLCGG00CfCG00000000GLi;;10880LC8880GLLft111111tfft1i;;;i111iii;i   
-   t11fff111i;;;i1fLCLt1fLLLf1C0GLLGGGf;;ifG00000000GL;:,:1000CL08880CLLfffffLffffftii;;;;iiiii;1   
-   11tLLLLCCCf1iiitLLLf1ifCCCG0GCLC0Gf. ,:fGG000000000GLfLLG00GLG00088GGCCCCCCCftttt111111tft1i;i   
-   11tfftfLCCCftt111111ii1fLG0CCCCLGLi;11fGG000000088888000000GLC000G880GGGG0GGCfttt111ttffffti;i   
-   11tfft111tffLCCLftiii1ttL0CLLCCLLfLCG0GGG0GLLffLCG088000000GLLG0G0000CCCCGGCCLftt11111i111i;:i   
-   11ttt1i;;;itLCGCLf1;;i1fGGCLLCCLCCCLGGCG0f::;;;::1C08000000GfLG0GGGGGLLCCLffttt1111iii;;;ii;:i   
-   11tt1111i;i1fLLft1i;::iGGCCfLCCLCGCCGCCGGi.....,,iC00000G00GffGGLLLCCLCCCCfftt111111ii;;;;;;;1   
-   t1ttffffft11LCCLt1;:::1CCCLffCCfCCCCLCCGGfi:...,;tLG00000GCGftGCffLLLCGGGCLLffttt111iii;;:;;;1   
-   t1tffftffLLLCGGCti;:;itfffLftLLfffLLCCCCCLt::,,::itCCG0GCGCCfLfLfLCLCGGGGCCLLfftt1iii;;;;:;;;i   
-   t1tt11iitfLCCCLf1ii;1fLfttt1tLLL11fCfffttt1i;;:;;;1fLCGttCCfG81GGffLLCGGGLLLfftt11iii;;;;;;;:i   
-   1i11111111111111111;itfLGCti1tL0fitt;itt1i;:,,...,,;t1;:fCLC08088L1i1tffffttttt111111iiiiiiii1   
-   1;ii11tffti;;ii111i;ii1L0000t;C0Gfi11:::::,..,,.,,:ii,:tCCLC00088G1ii;1ttttt1111111iii1111tt1t   
-   1i;;;;1fft1ii;;;i;;;iitG0000CC0GGL1i1i,. .;;;;;;i1tfL;iCGCLG000080f1tfffLLft1iiiiiiiiii11ttttt   
-   1;;:::;iiii111;:::::::tG00000000GLtii11:..;11tttfLLLf1fCLLCG000008CttffLLCCLt1ii;;;;iiii11t11t   
-   i:::::;;i11tt1i;::::;ifGG0000000Cfftii11;,.1ffCLLCCfitCLLLGGGG0008Gt111fLLLfftt11iiii1tftt111t   
-  .i::;iii1ffft1ttiii;iitCGGG0000GGLftt1iii1i,.tCGGGC1:fCLfLCGGGG000801iii1tt1tttt11iiiitfff11ii1   
-  .i::;iii1tft1tfff1ii1itCCGGG00GGCffttt1iii1ti,,;;;::tCLffLCGGGG00000Lftt11tfffft11iiii11tt1i;;i   
-   i::;;;;:;i;;tLCCf1;:;fCCGG000GGLffttt11ii;i1i;:;;1fft1fLCCGGG000008Cfft11tfLLffttt1iii1111i;:i   
-   1;;;:::;;;;:ifCCL1:,iCGGGGGGGGGLtttt111iiiiiiii1111tttfLCCGGGG000080t1i111tfttttfff1ii1t1i;::1   
-   i::::;;;;;:::i1t1ii;fGGGGGGGGGCftttt11iiiiiii11111ttttfLCCGGG0000008L1ttttttt1i1tfft1111ii;::1   
-   i:,,:ii1i;;:;;;;iiiiLGGCCGGGGCLftttt111iiiii11111tfffffLLCGGG0000008GffLffttt1111tftt1i;;:::;1   
-  .i:,,,;iii;;iiiiiiii1CCCCLCCCLLLftttt1111ii111t1ttffLLLLLCCCGGG000008Gffffftt1111111111i;:::::i   
-   1;:,,,::;;iii1iiiiifCCCCCLLff1fftttt1111i111ttttffLLCCCCCCCCGG0G0000C1ttt11iiiiiii;iiii;;::::i   
-   1;;::i1i;;;;;;;;;;ifCCCCCLLfti1ft11111iiii1111tffffLfffLLLCCGGGGGG00f11i;;;;;;;i;;;;;;;;:::::i   
-   1ii;1tfti::::::::;iLGGCCCLLft11ffttttttt11ttttffLLLLCCLCCGGGGGGG0080t1i;;;iiii111iii1iii;;;;;1   
-   ,,,,,,,,,,,,,,,,,,,:::::::,,,,,,:,,,,,,,,,,,,,,,:::,,:,,::::::::::::,,,,,,,,,,,,,,,,,,,,,,,,,,   
-                                            ..   .    .                                             
-                                           C0CC:GG0f,0G0f                                           
-                                           tiG@1@tG81@108                                           
-                                            C8,;@tG81@108                                           
-                                           G@Ct:8G8G;@C8C                                           
-                                           ::;; ,;;. ,;;                                            
+                                                                               +;';;: '",;^':^==;   
+   "\<<>>)))>\)\\<\)|||)))|||||)\\\<>>>>>>>>>>>>><<<<<<>>>>))>)>>>>>))>>><>>))i%))ic>\<)>iv<>))>)   
+  `5EY$HDD@&PqhgGGES2wypghgp55mVgZZbO&$KKKKKHHK@@@@@$UU@DDBBBBBBBBDBBBDK$KHBD$Gmg4dg2wJ#JCfFSggqf`  
+  `54GYObghhq6gdPZPgVmF6h4EV65mVXZZGZO@DBBBDHK@KHDBDHK@KHDHK@KDDBBBWWBBDDDDH@&PSdEEVFfCnLTJCy23yf`  
+  .qXVmF55352wJwpdGYkkYbPX4VSmmSVXbkO&$KHHK@U8&&UKHDDHHHKKK@$$@KKHDDBBBBDK@U88YXgXGPh2wTjjj7a[[1L`  
+  .SZPEdgm2Fqq6fT#3mVXZbG4m66mmqdGO8UU$@K@@U&kbbkA8$@@@@$$@KKK@@@KK@KKHHHK$&YZX44gEqyy322yJTLe]Ie-  
+  `pXZkOOYGXEdhqmSmFf3gPGggF5FpF6gEZk&@HDDDHKHHHHHHHHK@@U&A&&&&&$@@U8&A&8888&kkZXXgVS6ppF2wwJuo[o-  
+  `fpmSdXZkObgq6VEEh5m4ZbPhyy6ghSp6hGUHKKK@@@@@@@KKHDDBBDH@@@@U8$KHK$kXVhVdEXGPdmmqS6yJnj77junLa7-  
+  `3Fywy6gdddVSmF52fFdEXEhS6mdgg4gPO@$UUUU$U88UUU@@K@@KHDDH$&$D@8$KK$Y4qF25qEPGXh5fC#L7a1touT#njL`  
+  `#TLjLJyyyy2FFmggqFy2FmEXXPPbYO@8AAOA8AYA8UU888U8AYZA8@BDKbgYBK8AOkG4gmF335666pywJnjoejJyyCnjez`  
+  `wwLnujz7jLjjjwSEXh2CCphEVqVb8$ZgXkk&kV2dYA88&&88APm1I]TkDKbSGHBK8kGEgmF22yfyFqqFwjetaufffJLza7-  
+  `Jf6dgd6pp3Tzez34bYGSy64PG4qG&bggYkPj)%rwGO&8&&8UUOEor%ILY$Ughk@HDKAbGPE44EEdghhq5Cu7oa7Tww#j1z`  
+  `TyVPZPXYAOPm5w#3qhgFC#pXZk&bXEhdYXj|ir1gOA88UU$@KK@UkPZbk&&PSg8$8UH@U8AAAOkbEqF523wwfw2pm6fo*a-  
+  `uyhgggFFmSVVPGX4m2Ju#w26EOPhhgVmVm3pdPZYO&ZVhSShXkUKK@$8&88bpgO8AAU@$AYYkkkbP4S55yCwfJnTJJL1{1-  
+  `u3SVg5wjo7#6EbkbgqJ7toThYZdmq44SdgE4GbPYk#i<rrc>%7d8@@$88U8b5gk&GZZZOEEXXgdhgmF2yfCTuo]![tt]{1-  
+  `#2pmm66FfTjwdPGE6y7]{sjGXXhF6E454PXgXgXkbo\=':;/vehk&8$8OOkG33bbgShgPXbYYbXEhmF23ffCTjt!III}Io-  
+  `J36ShVhVd4hVYA&Y6L[}?tfmmSq23hhfmmdVdggXXmzv"++<%[y4ZY&AYkXE25Sg2VGbY&&&&kbGEhS6FyJnje1!}{*}Ie-  
+  `CypF52JT5hXGGG4Swu7tum4mwJTLJ6g6#jpd6mm53Jz}lv>c%{72gXPywggmX8CZYdh4GOA&AYZP4gF2fCTL71!I}I!?Ie-  
+  `TLTCy2532yJJJJT#CJutzw2hbXm#LzmAmjnwt[Lujts)/=;,^+<}jIcr6EdE&@$KK4L7LJphddhqp5fCCwJTuj777juujL`  
+  `Leo7zLySh6J7eeozLjatee#gA8UUF#GkbqLju!)=+\>\<><)vs!zLvrFZgdG8$U@K&3zLT36SS65JuLLLLj77ozLTwyyw#`  
+  `Loe}*?eu#Tn#Tj[}*{s{}IfGOA&AAAAAbgw77nt):={[[eztLf3F3ewXgdXk&&8$@@Ef56gdXGX46fn7ett111a7LJCJJJ`  
+  -oI*r*?!aTwfyfJ7[?*{{Ie6PYkOOOOOkgm2Jz7Lz}\+?f5g6g4muaygdgEbAOO&U$KbywC5gEXgE4dS2#Lzatuw3yCTunJ`  
+  -1r{[o7jwmhgyT32wzeao7fdXZYkOOkYGS5ff#zee7el>*Ly3yu*}m4q6hPYkkO&U$@&FwCwy22FmgSpfTLj77TyF3Tzt1z`  
+  -t{I[tt1tL#LtCg4E3z]!!fEgGYkOkYGdF2fCCn7e1aLz*iixlILpFf5S4PbkkA88U$@Gg6yJ#ymVdgpyJ#njzjTJJj1}r1-  
+  -o!]!}}}?]!?ILqgXgJ{>[dZPbkkkbGPq2yw#Tuj7a11teoo77uJCCfpVEPZYkA888U@O2njLu#yF5235qqF#o7u#T7?rlt-  
+  -a*{r*1eo1!}{IeLTuzt1pZbGPGZZGX45ffwJTLz7ettozjjjjTw3yyFSdgGbkA&888$$VJf23ffww#nC5mm2TLooa!{lse-  
+  -[xiil[7Le[]!111[1aeuVPX4dEXPEdg2fwCJTujze1oju#unJfFmq6pSdgPbYOA&&8U@Y66qm53yfJ#T#CyywTe?{cxl{o-  
+  -eIri\isI][tozj7oetef4EgEdhSm2C52wwwJ#nLzeojT#wCw2pqhddddEEEPbkOOAA8$Xy32yCTujzoeeataeoe!{lxv%1-  
+  -7[!l{7n7?*}?]]!!![7qPXXgEdS5Jtu5wJJJ#nL7o7u##JyFmmSgSSShV4XGbkAA&8@$6uL7t[[[]][at]?!]]?*slcx%1-  
+  `!I}r]zuL}vv%%%%%xl!wF523fw#Le!]Luj777zz7eaojzoLTJJCwfwCfy5Fppp6mqgVmz!}sl{I??![t1]][[]?}**{{s?`  
+   ...................        ............. ``   `    `                 .........................   
+                                          .CS62)pmhz"q6Ve                                           
+                                          `Ie8b1QfYHjQuU@-                                          
+                                           !BGirQp&$eQfK8`                                          
+                                          -7ue1:!uu%_1uui                                           
                                                                                                     
-                                               .,,:;.                                               
-                                               ,,,::.                                               
+                                               ="\c%'                                               
+                                               `,';'-                                                                                    
 ```
 
 > Note: Colors are visible in the terminal if it's compatible.

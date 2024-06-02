@@ -14,12 +14,14 @@ The code should be clear, documented, and as idiomatic as possible.
 
 ## Available implementations
 
-- Go
-- Python 
+- [Go](./implementations/httpcat-go/)
+- [Python](./implementations/httpcat-python/)
+- [Rust](./implementations/httpcat-rust/)
 
 ## Roadmap
 
-- Rust
+- TypeScript/Deno
 - Swift
 - Kotlin
 - Zig
+- C++
