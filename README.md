@@ -17,10 +17,11 @@ The code should be clear, documented, and as idiomatic as possible.
 - [Go](./implementations/httpcat-go/)
 - [Python](./implementations/httpcat-python/)
 - [Rust](./implementations/httpcat-rust/)
+- [Deno/TypeScript](./implementations/httpcat-deno/)
 
 ## Roadmap
 
-- TypeScript/Deno
+- Node/TypeScript
 - Swift
 - Kotlin
 - Zig

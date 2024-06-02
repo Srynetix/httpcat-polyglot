@@ -1,0 +1,22 @@
+_all:
+    @just --list
+
+# Format
+fmt:
+    deno fmt
+
+# Lint
+lint:
+    deno lint
+
+# Run
+run *ARGS:
+    deno run --allow-read --allow-net main.ts {{ARGS}}
+
+# Test
+test:
+    deno test
+
+# Build
+build:
+    deno compile --allow-read --allow-net main.ts
