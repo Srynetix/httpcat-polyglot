@@ -1,0 +1,22 @@
+_all:
+    @just --list
+
+# Format
+fmt:
+    npm run fmt
+
+# Lint
+lint:
+    npm run lint
+
+# Run
+run *ARGS: build
+    npm run start -- {{ ARGS }}
+
+# Test
+test:
+    npm run test
+
+# Build
+build:
+    npm run build
