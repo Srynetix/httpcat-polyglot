@@ -1,6 +1,6 @@
 # httpcat-node - Simple, stupid http.cat client made in Node
 
-Show HTTP status code as cute images of cats (or dogs!), with colors!
+Show HTTP status code as cute images of cats (or dogs!).
 
 ## Prerequisites
 

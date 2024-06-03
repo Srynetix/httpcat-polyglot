@@ -19,10 +19,10 @@ The code should be clear, documented, and as idiomatic as possible.
 - [Rust](./implementations/httpcat-rust/)
 - [Deno/TypeScript](./implementations/httpcat-deno/)
 - [Node/TypeScript](./implementations/httpcat-node/)
+- [Dart](./implementations/httpcat-dart/)
 
 ## Roadmap
 
-- Dart
 - Swift
 - Kotlin
 - Zig

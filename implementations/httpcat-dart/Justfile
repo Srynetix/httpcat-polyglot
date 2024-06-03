@@ -1,0 +1,22 @@
+_all:
+    @just --list
+
+# Format
+fmt:
+    dart format .
+
+# Lint
+lint:
+    dart analyze
+
+# Build
+build:
+    dart compile exe -o httpcat-dart ./bin/httpcat_dart.dart
+
+# Run
+run *ARGS:
+    dart run ./bin/httpcat_dart.dart {{ARGS}}
+
+# Test
+test:
+    dart test
