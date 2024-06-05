@@ -2,20 +2,39 @@
 
 Show HTTP status code as cute images of cats (or dogs!), with colors!
 
-## Prerequisites
+## Experience summary
 
-- nix
-- nix-direnv
-- devenv
-- ...or just a recent version of Go.
+Hey, my first Go app!
 
-## Build
+I was really skeptical of Go and its value (because of my own ignorance), as I mostly want to use Rust for the same kind of problems.  
+But I was wrong! Go code is quite easy to write, it compiles super fast, and _bam_ your application is ready.
+
+Finding well crafted libraries is easy, they just work once you read the documentation carefully.  
+The included `go fmt` / `go vet` are great, just like my `cargo fmt` / `cargo clippy`!
+
+I did get stuck a little at the setup of the project because the module system did not really made sense for me (the `package` declarations are really `Java`-esque, not my thing).  
+Then for external dependencies, the fact that you need to `go get <your_library>` and import packages with names like `github.com/user/library/file` was really confusing at first, but once you understand that it's just a name and nothing more, you can move on quickly.
+
+Overall, a nice experience, will use again in the future when Rust can be too convoluted for the problem to solve.
+
+## Packages and versions
+
+- Go 1.22.1
+
+- For CLI parsing: `github.com/spf13/cobra`
+- To convert an image to ASCII: `github.com/qeesung/image2ascii`
+
+- To have more assertions: `github.com/stretchr/testify`
+
+## How-tos
+
+### Build
 
 ```sh
-go build
+$ go build
 ```
 
-## Usage
+### Usage
 
 ```sh
 $ httpcat-go 200

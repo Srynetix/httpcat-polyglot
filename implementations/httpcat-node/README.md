@@ -2,20 +2,37 @@
 
 Show HTTP status code as cute images of cats (or dogs!).
 
-## Prerequisites
+## Experience summary
 
-- nix
-- nix-direnv
-- devenv
-- ...or just a recent version of Node.
+Creating a new project in Node, that's exhausting (a little similar to the Python story, but it's going better with tools like `rye`).
 
-## Build
+I did this implementation after the `deno` implementation, and I spent too much time on this one.
+
+I wanted to do some TypeScript, so I had to install a few dependencies do everything could even work (notably `typescript` and `ts-jest`, and I also started with `ts-node` before adding a compilation step to ease CLI tool distribution).
+
+I tried a lot of ASCII libraries and ended on `asciify-image`. It's missing features (compared to `terminal_images` on Deno for example), but it does the job.
+
+## Packages and versions
+
+- Node 20.11.1
+
+- For CLI parsing: `yargs`
+- To validate HTTP status codes: `http-status-codes`
+- To convert an image to ASCII: `asciify-image`
+
+- To format/lint: `biome`
+- To test: `jest` and `ts-jest`
+- ...and some type declarations to please TypeScript.
+
+## How-tos
+
+### Build
 
 ```sh
 $ npm run build
 ```
 
-## Usage
+### Usage
 
 ```sh
 $ node ./dist/index.js 100

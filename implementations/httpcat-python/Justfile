@@ -8,6 +8,7 @@ fmt:
 # Lint
 lint:
     poetry run ruff check .
+    poetry run mypy .
 
 # Test
 test:

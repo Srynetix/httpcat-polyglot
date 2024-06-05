@@ -2,20 +2,37 @@
 
 Show HTTP status code as cute images of cats (or dogs!).
 
-## Prerequisites
+## Experience summary
 
-- nix
-- nix-direnv
-- devenv
-- ...or just a recent version of Dart.
+I wanted to try Dart, and well I'm not sure if I like it.
 
-## Build
+It's package system reminds me of Java, and I found imports a little verbose (with the mandatory `.dart` extensions).
+
+The language itself looks great, I like keyword arguments in functions.
+But the enum/constant case which have to be lowerCamelCase, that's not my thing, it's not clear when a variable is a constant or not just by looking at its name. And `PetType.cat` instead of `PetType.Cat` or `PetType.CAT` feels really weird.
+
+I also found the `args` package somewhat lacking in features, I had to do things by hand to check for arguments, but it could be my fault I'm still a noob in Dart.
+
+If I have to do some Flutter one day, not sure I will like it.
+
+## Packages and versions
+
+- Dart 3.3.3
+
+- For CLI parsing: `args`
+- For HTTP calls: `http`
+- To validate status codes: `http_status_code`
+- To convert an image to ASCII: `image` + `enough_ascii_art`
+
+## How-tos
+
+### Build
 
 ```sh
 $ dart compile exe -o httpcat-dart ./bin/httpcat_dart.dart
 ```
 
-## Usage
+### Usage
 
 ```sh
 $ httpcat-dart 100

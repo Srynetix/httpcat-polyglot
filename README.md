@@ -12,6 +12,9 @@ For each language / technology included in "implementations", the app should:
 
 The code should be clear, documented, and as idiomatic as possible.
 
+I will try to sum up my experience with each technology in each implementation README.
+Each implementation will use nix/direnv/devenv to easily switch between tools.
+
 ## Available implementations
 
 - [Go](./implementations/httpcat-go/)
@@ -20,10 +23,14 @@ The code should be clear, documented, and as idiomatic as possible.
 - [Deno/TypeScript](./implementations/httpcat-deno/)
 - [Node/TypeScript](./implementations/httpcat-node/)
 - [Dart](./implementations/httpcat-dart/)
+- [Java](./implementations/httpcat-java/)
 
 ## Roadmap
 
-- Swift
 - Kotlin
+- C#/.NET
+- Swift
+- Elixir
 - Zig
+- C
 - C++

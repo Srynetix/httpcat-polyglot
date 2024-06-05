@@ -2,20 +2,36 @@
 
 Show HTTP status code as cute images of cats (or dogs!), with colors!
 
-## Prerequisites
+## Experience summary
 
-- nix
-- nix-direnv
-- devenv
-- ...or just a recent version of Python 3.12 and Poetry.
+Well, that went as expected, I'm using Python for 8 years now at work.
 
-## Build
+I used `poetry` (it plays nicer with `nix` than `rye` unfortunately) to manage the project.
+Then I used the `typer` library for CLI stuff, `httpx` as a HTTP client to do async calls, and `ascii-magic` for the image to ASCII stuff.
+
+I wrote some tests using `pytest`, setup the format/lint with `ruff` and typecheck with `mypy` and that's it.
+
+## Packages and versions
+
+- Python 3.12.3
+
+- For CLI parsing: `typer`
+- For HTTP calls: `httpx`
+- To convert an image to ASCII: `ascii-magic`
+
+- To lint and format code: `ruff`
+- To check types: `mypy`
+- To run tests: `pytest`
+
+## How-tos
+
+### Build
 
 ```sh
-pip install .
+$ pip install .
 ```
 
-## Usage
+### Usage
 
 ```sh
 $ httpcat-py 200

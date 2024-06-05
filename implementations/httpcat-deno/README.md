@@ -2,20 +2,39 @@
 
 Show HTTP status code as cute images of cats (or dogs!), with colors!
 
-## Prerequisites
+## Experience summary
 
-- nix
-- nix-direnv
-- devenv
-- ...or just a recent version of Deno.
+My first Deno project!
 
-## Build
+First, I like the first-class TypeScript support, no need for Vite/Webpack/etc., that's great. I also like the standalone compilation to make a CLI tool. Same thing with the included fmt/lint commands (feels like Rust/Go, nice!).
+
+But I'm not sure about the import declarations with the version numbers, it feels weird and it does not look really DRY.
+
+I understand the "secure by default" paradigm of Deno, I know it's here for really good reasons, but during development I find it a little aggressive, but that's on me (you know, still a noob!).
+
+I'm also a little confused by the jsr/deno-land separation, a lot of things are not present in jsr, and the ecosystem is still a lacking a little, but I did found great libraries.
+
+In the end, it's still TypeScript with a different standard library so you are not really lost.
+
+## Packages and versions
+
+- Deno 1.41.3
+
+- For CLI parsing: `yargs`
+- To validate HTTP status codes: `http-status-codes`
+- To convert images to ASCII: `terminal_images`
+
+- To assert things in tests: `@std/assert`
+
+## How-tos
+
+### Build
 
 ```sh
-deno compile --allow-net --allow-read main.ts
+$ deno compile --allow-net --allow-read main.ts
 ```
 
-## Usage
+### Usage
 
 ```sh
 $ httpcat-deno 200

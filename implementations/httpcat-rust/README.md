@@ -2,20 +2,32 @@
 
 Show HTTP status code as cute images of cats (or dogs!), with colors!
 
-## Prerequisites
+## Experience summary
 
-- nix
-- nix-direnv
-- devenv
-- ...or just a recent version of Rust and Cargo.
+It's Rust time! 
 
-## Build
+For this implementation, I went on `https://blessed.rs` to pick my tools of choice, and a few minutes later the app was done.
+
+For CLIs in particular, I found Rust to be really nice.
+
+## Packages and versions
+
+- Rust 1.78.0
+
+- For CLI parsing: `clap`
+- For HTTP calls: `reqwest` + ` tokio`
+- To convert an image to ASCII: `image` + `rascii_art`
+- To handle errors without pain: `anyhow`
+
+## How-tos
+
+### Build
 
 ```sh
-cargo build --release
+$ cargo build --release
 ```
 
-## Usage
+### Usage
 
 ```sh
 $ httpcat-rs 200

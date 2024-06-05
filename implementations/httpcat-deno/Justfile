@@ -11,7 +11,7 @@ lint:
 
 # Run
 run *ARGS:
-    deno run --allow-read --allow-net main.ts {{ARGS}}
+    deno run --allow-read --allow-net src/main.ts {{ARGS}}
 
 # Test
 test:
@@ -19,4 +19,4 @@ test:
 
 # Build
 build:
-    deno compile --allow-read --allow-net main.ts
+    deno compile --allow-read --allow-net --output=httpcat-deno src/main.ts
