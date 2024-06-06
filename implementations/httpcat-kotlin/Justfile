@@ -1,0 +1,14 @@
+_all:
+    @just --list
+
+# Build
+build:
+    gradle build
+
+# Run
+run *ARGS:
+    gradle run --args="{{ ARGS }}"
+
+# Test
+test:
+    gradle test

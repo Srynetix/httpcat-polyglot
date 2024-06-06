@@ -24,10 +24,10 @@ Each implementation will use nix/direnv/devenv to easily switch between tools.
 - [Node/TypeScript](./implementations/httpcat-node/)
 - [Dart](./implementations/httpcat-dart/)
 - [Java](./implementations/httpcat-java/)
+- [Kotlin](./implementations/httpcat-kotlin/)
 
 ## Roadmap
 
-- Kotlin
 - C#/.NET
 - Swift
 - Elixir
