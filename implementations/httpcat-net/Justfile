@@ -1,0 +1,14 @@
+_all:
+    @just --list
+
+# Build
+build:
+    dotnet build
+
+# Run
+run *ARGS:
+    dotnet run --project HttpCat {{ARGS}}
+
+# Test
+test:
+    dotnet test
